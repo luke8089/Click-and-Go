@@ -17,6 +17,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Version
+    |--------------------------------------------------------------------------
+    |
+    | The current release version of the Click E-Commerce application. This is
+    | bumped on each tagged release so the running build can be identified.
+    |
+    */
+
+    'version' => env('APP_VERSION', '2.2.0'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
